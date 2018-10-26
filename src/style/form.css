@@ -1,0 +1,41 @@
+form label,
+form .label {
+  display: block;
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+form > .row:last-child,
+form > .flexRow:last-child {
+  margin-bottom: 0;
+}
+
+form textarea,
+form input,
+form select {
+  min-width: 65%;
+  border: 1px solid #aaa;
+  border-radius: 3px;
+}
+
+textarea,
+input {
+  padding: 5px;
+}
+
+button {
+  border: 1px solid black;
+  padding: 5px 10px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: black;
+  color: white;
+}
+
+a {
+  text-decoration: underline;
+  cursor: pointer;
+}

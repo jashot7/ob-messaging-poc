@@ -1,0 +1,57 @@
+.disabled {
+  display: none;
+}
+
+.heading {
+  font-size: 2rem;
+  color: darkgrey;
+  text-align: center;
+}
+
+.configContainer {
+  background-color: darkgrey;
+  border: 2px solid black;
+  border-radius: 2px;
+}
+
+.chatContainer {
+  border: 2px solid lightslategray;
+  border-radius: 10px;
+}
+
+.chatMessageContainer {
+  /* border: 1px solid blue; */
+}
+
+.chatHeader {
+  background-color: lightcyan;
+}
+
+.recipientPeerId {
+  font-weight: 400;
+}
+
+.pdSm {
+  padding: 10px
+}
+
+.pdMd {
+  padding: 20px;
+}
+
+.mgSm {
+  margin: 10px;
+}
+
+.mgMd {
+  margin:20px;
+}
+
+.hide {
+  display:none;
+}
+
+.txtCtr{
+  text-align: center;
+}
+

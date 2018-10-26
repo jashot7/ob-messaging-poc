@@ -1,0 +1,26 @@
+body {
+  font-size: 14px;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+p {
+  margin-top: 0;
+  margin-bottom: 10px;
+}
+
+.posR {
+  position: relative;
+}
+
+.disabled {
+  pointer-events: none;
+  cursor: default;
+  opacity: 0.6;
+}
+
+.displayBlock {
+  display: block;
+}

@@ -1,0 +1,27 @@
+.isOwnMessage {
+  align-self: flex-end;
+}
+
+.chatMessage {
+  background-color: lightskyblue;
+  border-radius: 15px;
+  margin-right: 10px;
+}
+
+.chatDate {
+  font-size: 0.75rem;
+  color: lightskyblue;
+  margin-top: 5px;
+}
+
+.messageDateContainer {
+  margin-left: 10px;
+}
+
+.sendButton {
+
+}
+
+.chatInput {
+
+}

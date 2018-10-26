@@ -1,0 +1,18 @@
+.relayStatus{
+  padding: 20px;
+}
+
+.relayStatus.connected {
+  border: 1px solid green;
+  background-color: greenyellow;
+  color: green;
+  font-size: 0.75rem;
+}
+
+.relayStatus.disconnected {
+  border: 1px solid red;
+  background-color: pink;
+  font-size: 2rem;
+  font-variant-caps: small-caps;
+  color: red;
+}

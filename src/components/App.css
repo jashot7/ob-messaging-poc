@@ -1,0 +1,79 @@
+.App {
+  font-family: 'Helvetica', 'Arial', sans-serif;
+}
+
+.App-header {
+  text-align: center;
+  padding: 25px 0;
+  background: rgb(7, 95, 197);
+  padding: 20px;
+  color:rgb(17, 148, 235);
+  font-size: 16px;
+}
+
+.App-logoWrap {
+  height: 85px;
+  margin-top: 30px;
+}
+
+.App-logo {
+  animation: App-logo-spin infinite 40s linear;
+  height: 200px;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-header h1 {
+  margin-bottom: 0;
+}
+
+.App-header h1 + sub {
+  margin-bottom: 25px;
+  display: block;
+}
+
+.App-navWrap {
+  display: flex;
+}
+
+.App-navWrap a {
+  cursor: pointer;
+}
+
+.App-mainNav {
+  flex-grow: 1;
+  text-align: left;
+}
+
+.App-mainNav > a {
+  margin-right: 5px;
+  color: white;
+  padding: 5px;
+}
+
+.App-mainNav > a.active {
+  background-color: #1ef909;
+  color: black;
+  font-weight: bold;
+}
+
+.App-navWrap a {
+  text-decoration: none;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.App-mainContent {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 25px;
+}
